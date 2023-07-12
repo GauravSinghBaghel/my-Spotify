@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mySpotify</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li class="brand"><img src="logo.png" alt="Musico">mySpotify</li>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="songList">
+      <h1>NCS-SONGS</h1>
+      <div class="songItemContainer">
+        <button class="btn 1">Song-1</button>
+        <button class="btn 2">Song-2</button>
+        <button class="btn 3">Song-3</button>
+        <button class="btn 4">Song-4</button>
+        <button class="btn 5">Song-5</button>
+        <button class="btn 6">Song-6</button>
+        <button class="btn 7">Song-7</button>
+        <button class="btn 8">Song-8</button>
+        <button class="btn 9">Song-9</button>
+        <button class="btn 10">Song-10</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="bottom">
+    <input type="range" name="range" id="myProgressBar" min="0" value ="0" max="100"> 
+    <div class="icons">
+      <!-- fontawesome icons -->
+      <i class="fas fa-3x fa-step-backward" id="previousButton"></i>
+      <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+      <i class="fas fa-3x fa-step-forward" id="forwardButton"></i>
+    </div>
+    <div class="playingGif">
+      <img src="playing.gif" width="62px" id="gif"> 
+    </div>
+
+   
+  <script src="https://kit.fontawesome.com/60697a2143.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script> 
+  <script src="index.js"></script>
+  
+</body>
+</html>
