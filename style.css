@@ -61,10 +61,7 @@ nav ul li{
   cursor: pointer;
    
 }
-@media(max-width:600px){
-  .btn{
-    width: 100px;
-  }
+
 }
 .playingGif{
   position: absolute;
